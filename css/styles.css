@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+:root {
+  --secondary: #f2726f;
+}
+
+.hero-section {
+  background: url("../images/duotone.png");
+  height: 800px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.site-header {
+  width: 100%;
+  top: 25px;
+  position: fixed;
+}
+
+.site-header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.logo__item {
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__item {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.text_info {
+  margin-left: 10px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+  color: #ffffff;
+}
+
+.button {
+  border-radius: 8px;
+  padding: 9px 18px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  background-color: var(--secondary);
+  border: none;
+  outline: none;
+}
