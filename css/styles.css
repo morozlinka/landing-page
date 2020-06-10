@@ -51,7 +51,8 @@ html {
 .info__item {
   display: flex;
   align-items: flex-start;
-  margin-left: 10px;
+  margin-left: 32px;
+  height: 40px;
 }
 
 .text_info {
@@ -73,4 +74,5 @@ html {
   background-color: var(--secondary);
   border: none;
   outline: none;
+  height: 40px;
 }
