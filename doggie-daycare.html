@@ -6,38 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doggie-daycare</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css\normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 </head>
 
 <body>
     <header class="site-header">
-        <div class="site-header__content container">
-            <div class="logo">
-                <div class="logo__item">
-                    <img src="images/logo_icon.svg" alt="icon" />
+        <div class="container">
+            <div class="site-header__info">
+                <div class="logo">
+                    <div class="logo__item icon">
+                        <img src="images/svg/logo_icon.svg" alt="icon" />
+                    </div>
+                    <div class="logo__item name">
+                        <img src="images/svg/logo_name.svg" alt="name" />
+                    </div>
                 </div>
-                <div class="logo__item">
-                    <img src="images/logo_name.svg" alt="name" />
+
+                <div class="info">
+                    <div class="info__item">
+                        <img src="images\svg\access_time_24px.svg" alt="access_time" />
+                        <div class="info__text">
+                            <div class="info__header"> BOARDING HOURS </div> Mon - Sat: 7:00 am - 6:00 pm
+                        </div>
+                    </div>
+                    <div class="info__item">
+                        <img src="images\svg\call_24px.svg" alt="phone" />
+                        <div class="info__text">
+                            <div class="info__header"> CALL US </div> (555) Pup-Cares
+                        </div>
+                    </div>
+                    <div class="info__item">
+                        <button class="button">
+                            Make Appointment
+                        </button>
+                    </div>
                 </div>
             </div>
-    
-            <div class="info">
-                <div class="info__item">
-                    <img src="images\icon\device\access_time_24px.svg" alt="access_time" />
-                    <div class="text_info">BOARDING HOURS <br> Mon - Sat: 7:00 am - 6:00 pm</div>
-                </div>
-                <div class="info__item">
-                    <img src="images\phone_24px.svg" alt="phone" />
-                    <div class="text_info">CALL US <br> (555) Pup-Cares</div>
-                </div>
-                <div class="info__item">
-                    <button class="button">
-                    Make Appointment
-                </button>
+            <div class="navbar">
+
+                <nav class="navbar-panel">
+                    <ul class="nav-panel__list">
+                        <li class="nav-panel__item  dropdown">  Services <img class="nav-panel__item-icon"
+                                src="images\svg\expand_more_24px.svg"> </li>
+                        <li class="nav-panel__item"> <a class="nav-link" href="#">Specials</a> </li>
+                        <li class="nav-panel__item"> <a class="nav-link" href="#">Facilities</a></li>
+                        <li class="nav-panel__item"> <a class="nav-link" href="#">Reviews</a> </li>
+                        <li class="nav-panel__item  dropdown"> Shop <img class="nav-panel__item-icon"
+                                src="images\svg\expand_more_24px.svg"> </li>
+                        <li class="nav-panel__item"> <a class="nav-link" href="#">About</a> </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
+
+
+
     </header>
 
     <section class="hero-section">
